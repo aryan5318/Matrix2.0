@@ -34,5 +34,6 @@
   "engines": {
     "node": ">=14.0.0"  
   },
-  "license": "MIT"  
+  "license": "MIT",
+  "description": "Front-end application for the education-related project" 
 }
