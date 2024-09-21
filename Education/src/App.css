@@ -1,0 +1,68 @@
+.course-Add{
+    display: flex;
+    flex-direction: column;
+}
+.course-add {
+    background-color: #f0f8ff; /* Light blue background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 40px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* White background for input fields */
+    color: #333; /* Dark text color */
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border on focus */
+}
+
+.file-input {
+    padding: 8px;
+}
+
+.form-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Blue background for the button */
+    color: #fff; /* White text for the button */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight raise effect on hover */
+}
+
+.form-button:active {
+    background-color: #00408d; /* Even darker blue on click */
+    transform: translateY(0); /* Reset the button position on click */
+}
+
+.course-add input[type="file"] {
+    border: none;
+    background-color: transparent;
+}
+
+.course-add input::placeholder {
+    color: #888; /* Light gray color for placeholder text */
+}
+

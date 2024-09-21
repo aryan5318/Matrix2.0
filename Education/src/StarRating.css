@@ -1,0 +1,15 @@
+/* StarRating.css */
+.star-rating {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.star {
+    font-size: 2rem;
+    color: #dcdcdc; /* Default grey color for empty stars */
+}
+
+.star.filled {
+    color: #ffc107; /* Yellow for filled stars */
+}

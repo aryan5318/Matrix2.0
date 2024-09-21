@@ -1,0 +1,37 @@
+/* CourseDetails.css */
+*{
+  font-family: sans-serif;
+  
+}
+.course-container1 {
+    background-color: white;
+    color: blue;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    
+   
+    
+  }
+  
+  .course-title {
+    font-size: 15px;
+    font-weight: bold;
+   
+  }
+  
+  .course-description {
+    font-size: 16px;
+  }
+  
+  .course-link {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .course-link:hover {
+    text-decoration: none;
+  }
+  
