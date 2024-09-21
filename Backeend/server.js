@@ -5,9 +5,12 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { check, validationResult } = require('express-validator');
 
+const dotenv = require('dotenv')
+dotenv.config();
+
 const app = express();
-const PORT = 5000; 
-const JWT_SECRET = 'ajf3948fF@3faDKf4_#fasdFS@KFslfjsDF!ksjlfd'; 
+const PORT = process.env.PORT || 3000; 
+const JWT_SECRET = process.env.JWT_SECRET; 
 
 app.use(cors({ origin: 'http://localhost:5173' }));
 app.use(express.json()); 
